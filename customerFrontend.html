@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="formChecker.js"></script>
+<link href="myStyle.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<title>Kanye West Unoffical Store</title>
+</head>
+<body>
+<h3>Welcome to the</h3>
+<h1>(VERY) Unofficial Kanye West Merch Store</h1>
+<form id="storefront" action="customerBackend.php" method="post">
+
+<h3>Pink Polo</h3>
+<p>One size fits all<br>
+  $80 each<br>
+  Quantity:
+  <input id="polo" type="text" value="0"></p>
+
+<p id="poloError" class="error"></p>
+
+<h3>Yeezy Athleisure Flip Flops</h3>
+<p>Only available in men's size 6.6<br>
+  $120 each<br>
+  Quantity:
+  <input id="flipFlops" type="text" value="0"></p>
+
+<p id="flipFlopsError" class="error"></p>
+
+<h3>Leather Jogging Pants</h3>
+<p>They probably won't fit<br>
+  $350 each<br>
+  Quantity:
+  <input id="joggers" type="text" value="0"></p>
+
+<p id="joggersError" class="error"></p>
+
+<br><br><p>Please select a shipping option:<br>
+<input type="radio" name="shipping" value="50" checked="checked">$50.00 overnight shipping<br>
+<input type="radio" name="shipping" value="5">$5.00 3-day shipping<br>
+<input type="radio" name="shipping" value="0">Free 7-day shipping<br>
+</p>
+<button type="reset" value="Reset">Reset!</button></form><button onclick="validate()">Validate and submit!</button>
+</body>
+</html>
