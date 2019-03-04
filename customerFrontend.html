@@ -15,7 +15,7 @@
 <p>One size fits all<br>
   $80 each<br>
   Quantity:
-  <input id="polo" type="text" value="0"></p>
+  <input id="polo" name="polos" type="text" value="0"></p>
 
 <p id="poloError" class="error"></p>
 
@@ -23,7 +23,7 @@
 <p>Only available in men's size 6.6<br>
   $120 each<br>
   Quantity:
-  <input id="flipFlops" type="text" value="0"></p>
+  <input id="flipFlops" name="flipFlops" type="text" value="0"></p>
 
 <p id="flipFlopsError" class="error"></p>
 
@@ -31,9 +31,15 @@
 <p>They probably won't fit<br>
   $350 each<br>
   Quantity:
-  <input id="joggers" type="text" value="0"></p>
+  <input id="joggers" name="joggers" type="text" value="0"></p>
 
 <p id="joggersError" class="error"></p>
+
+<br><br>
+<p>Username (must be in the form of an email address):
+  <input id="username" type="email" placeholder="kanye@west.example"><p id="usernameError" class="error" required></p>
+  Password:
+  <input id="password" name="password" type="text"><p id="passwordError" class="error"></p></p>
 
 <br><br><p>Please select a shipping option:<br>
 <input type="radio" name="shipping" value="50" checked="checked">$50.00 overnight shipping<br>
