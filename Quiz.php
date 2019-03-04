@@ -61,7 +61,7 @@ echo "<h3>Question 5: Finisy the lyric: \"Poopy-di scoop / Scoop- diddy-whoop / 
 echo "<p>Your answer: " . $q5;
 echo "<br>Correct answer: Poop";
 
-echo "<h3>Total Score: " . $score . "%<h3>";
+echo "<h3>Total Score: <text style=\"color:#ff6699\">" . $score . "%<h3>";
 
 ?>
 

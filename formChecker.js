@@ -1,24 +1,27 @@
 function validate() {
   let validated = true;
-  let polo = document.getElementById("polo.value");
-  let flipFlops = document.getElementById("flipFlops.value");
-  let joggers = document.getElementById("joggers.value");
+  let polo = document.getElementById("polo");
+  let flipFlops = document.getElementById("flipFlops");
+  let joggers = document.getElementById("joggers");
   let username = document.getElementById("username");
   let password = document.getElementById("password");
 
   let quantityError = "Quantity must be a number greater than or equal to zero";
 
-  if (isNaN(polo) || polo < 0){
+  console.log((polo.value));
+
+
+  if (isNaN(polo.value) || polo.value < 0){
     validated = false;
     poloError.innerHTML = quantityError;
   }
 
-  if (isNaN(flipFlops) || flipFlops < 0){
+  if (isNaN(flipFlops.value) || flipFlops.value < 0){
     validated = false;
     flipFlopsError.innerHTML = quantityError;
   }
 
-  if (isNaN(joggers) || joggers < 0){
+  if (isNaN(joggers.value) || joggers.value < 0){
     validated = false;
     joggersError.innerHTML = quantityError;
   }
