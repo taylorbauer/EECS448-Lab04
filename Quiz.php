@@ -49,7 +49,7 @@ echo "<h3>Question 2: Finish the lyric: \"And I love you like...\"</h3>";
 echo "<p>Your answer: " . $q2;
 echo "<br>Correct answer: Kanye loves Kanye";
 
-echo "<h3>Question 3: Who was Kanye addressing when he twieeted: \"maybe I couldn't be skinny an dtall but I'll settle for being the greatest artist of all time as a consolation\"?</h3>";
+echo "<h3>Question 3: Who was Kanye addressing when he twieeted: \"maybe I couldn't be skinny and tall but I'll settle for being the greatest artist of all time as a consolation\"?</h3>";
 echo "<p>Your answer: " . $q3;
 echo "<br>Correct answer: Wiz Khalifa";
 
@@ -61,7 +61,8 @@ echo "<h3>Question 5: Finisy the lyric: \"Poopy-di scoop / Scoop- diddy-whoop / 
 echo "<p>Your answer: " . $q5;
 echo "<br>Correct answer: Poop";
 
-echo "<h3>Total Score: <text style=\"color:#ff6699\">" . $score . "%<h3>";
+echo "<h3>Corrct answers: <text style=\"color:#ff6699\">" . ($score / 20) . "</text>/5</h3>";
+echo "<h3>Total Score: <text style=\"color:#ff6699\">" . $score . "%</h3>";
 
 ?>
 
