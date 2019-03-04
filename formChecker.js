@@ -26,7 +26,7 @@ function validate() {
     joggersError.innerHTML = quantityError;
   }
 
-  if (username.value == "" || username.value == null){
+  if (!(/\S+@\S+\.\S+/test(username.value))){
     validated = false;
     usernameError.innerHTML = "Username must be a valid email address (me@example.biz)";
   }

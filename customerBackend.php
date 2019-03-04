@@ -36,10 +36,10 @@ else if ($shipping == 50){
 echo "<tr><td></td><td><b>Quantity</b></td><td><b>Cost Per Item</td><td><b>Sub Total</td><tr>";
 echo "<tr><td><b>Pink Polos</td><td class=\"data\">" . $polos . "</td><td class=\"data\">$80.00</td><td class=\"data\">$" . ($polos * 80) . "</td></tr>";
 echo "<tr><td><b>Yeezy Athleisure Flip Flops</td><td class=\"data\">" . $flipFlops . "</td><td class=\"data\">$120.00</td><td class=\"data\">$" . ($flipFlops * 120) . "</td></tr>";
-echo "<tr><td><b>Leather Jogging Pants</td><td class=\"data\">" . $joggers . "</td><td class=\"data\">$350.00</td><td class=\"data\">$" . ($polos * 350) . "</td></tr>";
+echo "<tr><td><b>Leather Jogging Pants</td><td class=\"data\">" . $joggers . "</td><td class=\"data\">$350.00</td><td class=\"data\">$" . ($joggers * 350) . "</td></tr>";
 echo "<tr><td><b>Shipping</td><td class=\"data\">" . $shippingString . "</td><td></td><td class=\"data\">$" . $shipping . "</td></tr>";
 echo "<tr><td><b>Grand Total: </td><td></td><td></td><td class=\"data\"><b>$" . (($polos * 80) + ($flipFlops * 120) + ($joggers * 350) + $shipping) . "</td></tr></table>";
-echo "<br><br><p>Thank you so much for your purpose.  For some reason, I will show you your password now.  It is: <div class=\"data\">" . $password . "</div><br>See you soon!</p>"
+echo "<br><br><p>Thank you so much for your purchase.  For some reason, I will show you your password now.  It is: <div class=\"data\">" . $password . "</div><br>See you soon!</p>"
 
  ?>
 </body>

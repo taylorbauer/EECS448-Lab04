@@ -49,7 +49,7 @@ echo "<h3>Question 2: Finish the lyric: \"And I love you like...\"</h3>";
 echo "<p>Your answer: " . $q2;
 echo "<br>Correct answer: Kanye loves Kanye";
 
-echo "<h3>Question 3: Who was Kanye addressing when he twieeted: \"maybe I couldn't be skinny and tall but I'll settle for being the greatest artist of all time as a consolation\"?</h3>";
+echo "<h3>Question 3: Who was Kanye addressing when he tweeted: \"maybe I couldn't be skinny and tall but I'll settle for being the greatest artist of all time as a consolation\"?</h3>";
 echo "<p>Your answer: " . $q3;
 echo "<br>Correct answer: Wiz Khalifa";
 
